@@ -426,22 +426,6 @@ img {
     z-index: var(--z-back);
 }
 
-.skills__html {
-    width: 70%;
-}
-
-.skills__css {
-    width: 45%;
-}
-
-.skills__js {
-    width: 40%;
-}
-
-.skills__bootstrap {
-    width: 40%;
-}
-
 .skills__img {
     border-radius: .5rem;
 }
