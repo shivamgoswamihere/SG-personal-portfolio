@@ -19,6 +19,3 @@ If you want to contact me, you can reach me through below Social handles.
 <a href="mailto:shivamg1008@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 
 </div>
-
-
-Don't forget to join the channel for more videos like this.

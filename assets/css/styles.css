@@ -10,7 +10,7 @@
 }
 
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 
 :root {
     --first-color: #4070F4;
@@ -36,7 +36,7 @@
 }
 
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 
 :root {
     --mb-1: 0.5rem;
@@ -200,6 +200,7 @@ img {
 
 .nav__logo {
     color: var(--second-color);
+    height: 0.18rem;
 }
 
 .nav__toggle {
