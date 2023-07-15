@@ -203,6 +203,10 @@ img {
     height: 0.18rem;
 }
 
+#navlogo{
+    height: 2rem;
+}
+
 .nav__toggle {
     color: var(--second-color);
     font-size: 1.5rem;
@@ -270,12 +274,12 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 200rem;
 }
 
 .home__img img {
-    width: 400px;
-    border-radius: 18rem;
+    width: 20rem;
+    border-radius: 20rem;
 }
 
 
@@ -381,6 +385,7 @@ img {
 
 /* ===== SKILLS =====*/
 
+
 .skills__container {
     row-gap: 2rem;
     text-align: center;
@@ -432,7 +437,7 @@ img {
 }
 
 
-/* ===== WORK =====*/
+/*===========  Work  ===========*/
 
 .work__container {
     row-gap: 2rem;
@@ -447,12 +452,35 @@ img {
 .work__img img {
     transition: 1s;
     cursor: pointer;
+    position: relative;
+    
 }
 
 .work__img img:hover {
     transform: scale(1.1);
 }
 
+/* ===== Community =====*/
+
+.community__container {
+    row-gap: 2rem;
+}
+
+.community__img {
+    box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.community__img img {
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.community__img img:hover {
+    transform: scale(1.1);
+}
 
 /* ===== CONTACT =====*/
 
@@ -566,7 +594,14 @@ img {
     .about__img img {
         width: 300px;
     }
+
     .work__container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+
+    .community__container {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
